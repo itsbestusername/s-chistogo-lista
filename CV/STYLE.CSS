@@ -1,0 +1,13 @@
+.image {
+    transition: 1s; /* Время эффекта */
+   }
+.image:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+.all {
+    margin: 50px auto;
+    text-align: center;
+    }   
+.name {
+    
+  }
