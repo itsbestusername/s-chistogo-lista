@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Inter, sana-serif;
+    font-weight: 400;
+    background-color: #1e1e1e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.content-section {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 360px;
+    min-height: 100px;
+    margin: auto;
+}
+
+.content-section_theme_dark {
+    color: #ffff;
+    background-color: #131313;
+}
+
+.content-section_theme_bright {
+    color: #131313;
+    background-color: #fee42a; 
+}
+
+.header {
+    padding: 24px 20px;
+}
+
+.cover {
+    padding: 7px 24px 32px 20px;
+}
+
+.intro {
+    padding: 0 20px 38px;
+}
+
+.reasons {
+    padding: 40px 20px;
+}
+
+.how-to {
+    padding: 40px 20px 60px;
+}
+
+.footer {
+    padding: 20px;
+}
