@@ -139,7 +139,7 @@ blockquote {
 }
 
 .content-section_subtitle {
-    margin-bottom: 32px;
+    padding: 40px 20px 0;
     font-family: EB Garamond;
     font-size: 28px;
     font-weight: 500;
@@ -147,7 +147,7 @@ blockquote {
 }
 
 .content-section_introduction {
-    margin: 0 0 32px;
+    margin: 32px 20px;
     font-size: 20px;
     line-height: 1.35;
 }
@@ -169,6 +169,77 @@ blockquote {
 
 .how-to {
     padding: 40px 20px 60px;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    list-style: none;
+}
+
+.card {
+   border-radius: 30px;
+   padding: 20px; 
+}
+
+.card_theme_dark {
+    color: #f5f5f5;
+    background-color: #343434;
+}
+
+.card_theme_bright {
+    color: #141414;
+    background-color: #fee42a;
+}
+
+.card_author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.card_author-photo {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card_author-name {
+    margin: 8px 0 0;
+    font-weight: 700;
+}
+
+.card_content {
+    display: flex;
+    width: 319px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.card_title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.35;
+}
+
+.card_text {
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 1.35;
+}
+.card_text-bright {
+    color: #141414;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 1.35;
 }
 
 .footer {
