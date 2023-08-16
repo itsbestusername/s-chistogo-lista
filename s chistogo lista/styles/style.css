@@ -38,11 +38,66 @@ blockquote {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 24px 20px;
 }
 
+.header_logo {
+    display: block;
+    width: 78px;
+}
+
+.header_logo-image {
+    width: 100%;
+}
+
+.header_menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+}
+
+.header_menu-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.header_menu-item_active .header_menu-link {
+    text-decoration: none;
+}
+
 .cover {
+    min-height: 258px;
     padding: 7px 24px 32px 20px;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 95% auto;
+}
+
+.cover_title {
+    width: 100%;
+    color: #fff;
+    font-family: 'EB Garamont', serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1;
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .intro {
@@ -60,3 +115,6 @@ blockquote {
 .footer {
     padding: 20px;
 }
+
+
+
